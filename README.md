@@ -1,5 +1,7 @@
 # Unity 2D Multiplayer Prototype – Custom 2D NavMesh Pathfinding & Authoritative Photon Networking
 
+<img width="1280" height="720" alt="00_11_15_27 Still004" src="https://github.com/user-attachments/assets/f9a92a32-766c-49f0-bd48-a25dce9c5ab6" />
+
 ## Project Overview  
 Ultimate Battle Arena is a fast-paced top-down multiplayer shooter built with Unity. This open-source repository represents the original prototype for a mobile game project that has since been completely overhauled and rebuilt from the ground up. While the prototype is no longer actively developed, it showcases the initial systems I created for networking, movement, AI, and combat.
 
@@ -64,18 +66,6 @@ This version was developed primarily as a learning exercise and early proof of c
 4. Use the multiplayer menu to enter your player name and select room size.  
 5. Join or create a game room to start playing.
 
-## About the Current Version  
-
-This project is a legacy prototype and no longer actively developed. The game has since been fully overhauled with:
-
-- **Photon Fusion** instead of PUN, supporting authoritative server architecture, built-in lag compensation, and client-side prediction.
-- **Unity’s NavMesh system** for 3D pathfinding and AI navigation.
-- A **new 3D art style and animation system**, optimized for mobile devices.
-- **Expanded movement and combat mechanics**, including dashing, grenades, weapon loadouts, and more.
-- Ongoing playtesting and polish for iOS release.
-
-This repository preserves the **original prototype** for educational and archival purposes.
-
 ## Detailed Geometric Functions and Algorithms (`Geometry.cs`)
 
 - **simplifyPolygon:** Uses Visvalingam’s algorithm to remove insignificant vertices from polygons based on triangle area significance, reducing complexity while preserving shape.  
@@ -92,6 +82,9 @@ This repository preserves the **original prototype** for educational and archiva
 
 The `Segment` and `Polygon` classes support these operations with properties like length, midpoint, and vertex lists.
 
+<img width="1280" height="720" alt="00_10_59_10 Still003" src="https://github.com/user-attachments/assets/1503d503-696a-4641-a12a-6551aca5db25" />
+
+
 ## Custom Networking Implementation Details
 
 - **Input Handling (`PlayerInput.cs`):**  
@@ -107,6 +100,24 @@ The `Segment` and `Polygon` classes support these operations with properties lik
 
 - **Connection and Matchmaking (`NetworkLauncher.cs`):**  
   Handles connection to Photon servers, room joining or creation, and scene loading for multiplayer matches.  
+
+<img width="2048" height="1028" alt="masterclient)verification" src="https://github.com/user-attachments/assets/55ce149e-61b9-409a-b0f7-f1ed0d3693e2" />
+
+## About the Current Version  
+
+This project is a legacy prototype and no longer actively developed. The game has since been fully overhauled with:
+
+- **Photon Fusion** instead of PUN, supporting authoritative server architecture, built-in lag compensation, and client-side prediction.
+- **Unity’s NavMesh system** for 3D pathfinding and AI navigation.
+- A **new 3D art style and animation system**, optimized for mobile devices.
+- **Expanded movement and combat mechanics**, including dashing, grenades, weapon loadouts, and more.
+- Ongoing playtesting and polish for iOS release.
+
+This repository preserves the **original prototype** for educational and archival purposes.
+
+**Current Version:**
+
+![00_19_35_04 Still007](https://github.com/user-attachments/assets/9bdf56a3-a5d9-4d2f-8b26-5b7be8f8d84d)
 
 ## License
 
